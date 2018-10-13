@@ -17,6 +17,7 @@
 		5BA92C7E2172411D0075A314 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */; };
 		5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C7F2172413E0075A314 /* SignInViewController.swift */; };
 		5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C81217241500075A314 /* SignUpViewController.swift */; };
+		5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8321724BC70075A314 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
 		5BA92C7F2172413E0075A314 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		5BA92C81217241500075A314 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5BA92C8321724BC70075A314 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */,
 				5BA92C7F2172413E0075A314 /* SignInViewController.swift */,
 				5BA92C81217241500075A314 /* SignUpViewController.swift */,
+				5BA92C8321724BC70075A314 /* TabBarViewController.swift */,
 				5BA92C60217221620075A314 /* Assets.xcassets */,
 				5BA92C62217221620075A314 /* LaunchScreen.storyboard */,
 				5BA92C65217221620075A314 /* Info.plist */,
@@ -214,6 +217,7 @@
 				5BA92C5C2172215B0075A314 /* HomeViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
+				5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */,
 				5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
