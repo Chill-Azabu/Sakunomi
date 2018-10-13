@@ -151,18 +151,18 @@
             </objects>
             <point key="canvasLocation" x="1276" y="-110.19490254872565"/>
         </scene>
-        <!--SignUp-->
+        <!--SignUpViewController-->
         <scene sceneID="pjq-S1-ixM">
             <objects>
-                <viewControllerPlaceholder storyboardName="SignUp" id="0nJ-oR-C7G" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="SignUpViewController" id="0nJ-oR-C7G" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jck-Ok-7yN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1923" y="-111"/>
         </scene>
-        <!--Home-->
+        <!--HomeViewController-->
         <scene sceneID="L8i-yU-0jC">
             <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="IOx-T8-7dv" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="HomeViewController" id="IOx-T8-7dv" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Msb-u4-D5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1917" y="-285"/>
