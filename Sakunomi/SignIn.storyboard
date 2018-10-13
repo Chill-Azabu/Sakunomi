@@ -34,7 +34,6 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.96862745289999996" green="0.97254902119999997" blue="0.98039215800000001" alpha="1" colorSpace="deviceRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="an4-qq-CP8" secondAttribute="trailing" id="6g7-2e-hXd"/>
                                             <constraint firstItem="an4-qq-CP8" firstAttribute="leading" secondItem="V07-Q1-Qol" secondAttribute="leading" id="sVt-Z9-Zbd"/>
@@ -143,10 +142,30 @@
                     </view>
                     <navigationItem key="navigationItem" id="PQQ-6X-jLa"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <segue destination="0nJ-oR-C7G" kind="show" id="9Md-0Z-EEw"/>
+                        <segue destination="IOx-T8-7dv" kind="show" id="h3v-eW-xHc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFb-Cc-VmE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1276" y="-110.19490254872565"/>
+        </scene>
+        <!--SignUp-->
+        <scene sceneID="pjq-S1-ixM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUp" id="0nJ-oR-C7G" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jck-Ok-7yN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1923" y="-111"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="L8i-yU-0jC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="IOx-T8-7dv" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Msb-u4-D5k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1917" y="-285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oD1-Zn-usp">
