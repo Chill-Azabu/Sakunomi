@@ -1,10 +1,9 @@
 
 import UIKit
 
-class CarenderViewCell: UICollectionViewCell {
+class CalenderViewCell: UICollectionViewCell {
 
-    @IBOutlet weak var carenderElementLabel: UILabel!
-    
+    @IBOutlet weak var calenderElementLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
     }

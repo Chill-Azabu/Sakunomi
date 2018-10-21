@@ -36,7 +36,7 @@ class TabBarController: UITabBarController {
         
         let homeVC = HomeViewController()
         let favoriteVC = FavoriteViewController()
-        let carenderVC = CarenderViewController()
+        let carenderVC = CalenderViewController()
         let profileVC = ProfileViewController()
         
         let homeNavCon = UINavigationController(rootViewController: homeVC)

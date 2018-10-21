@@ -13,6 +13,10 @@
 		5B73C07F217A34C20072AFFB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C079217A34C20072AFFB /* RxCocoa.framework */; };
 		5B73C080217A34C20072AFFB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C07A217A34C20072AFFB /* Alamofire.framework */; };
 		5B73C081217A34C20072AFFB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C07B217A34C20072AFFB /* RxSwift.framework */; };
+		5B73C087217D02B10072AFFB /* CalenderViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73C085217D02B10072AFFB /* CalenderViewCell.swift */; };
+		5B73C088217D02B10072AFFB /* CalenderViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B73C086217D02B10072AFFB /* CalenderViewCell.xib */; };
+		5B73C08A217D09370072AFFB /* CalenderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73C089217D09370072AFFB /* CalenderViewModel.swift */; };
+		5B73C08C217D1A120072AFFB /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73C08B217D1A120072AFFB /* Date+Extensions.swift */; };
 		5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C592172215B0075A314 /* AppDelegate.swift */; };
 		5BA92C5C2172215B0075A314 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C5B2172215B0075A314 /* HomeViewController.swift */; };
 		5BA92C5F2172215B0075A314 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C5D2172215B0075A314 /* HomeViewController.storyboard */; };
@@ -26,10 +30,10 @@
 		5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8321724BC70075A314 /* TabBarViewController.swift */; };
 		5BA92C8621724E0C0075A314 /* FavoriteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */; };
 		5BA92C8821724E2B0075A314 /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */; };
-		5BA92C8A21724E5F0075A314 /* CarenderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */; };
+		5BA92C8A21724E5F0075A314 /* CalenderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8921724E5F0075A314 /* CalenderViewController.storyboard */; };
 		5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */; };
 		5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */; };
-		5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8F21724EA80075A314 /* CarenderViewController.swift */; };
+		5BA92C9021724EA80075A314 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8F21724EA80075A314 /* CalenderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		5B73C079217A34C20072AFFB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		5B73C07A217A34C20072AFFB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		5B73C07B217A34C20072AFFB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5B73C085217D02B10072AFFB /* CalenderViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewCell.swift; sourceTree = "<group>"; };
+		5B73C086217D02B10072AFFB /* CalenderViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalenderViewCell.xib; sourceTree = "<group>"; };
+		5B73C089217D09370072AFFB /* CalenderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewModel.swift; sourceTree = "<group>"; };
+		5B73C08B217D1A120072AFFB /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		5BA92C562172215B0075A314 /* Sakunomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakunomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA92C592172215B0075A314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA92C5B2172215B0075A314 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -66,10 +74,10 @@
 		5BA92C8321724BC70075A314 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavoriteViewController.storyboard; sourceTree = "<group>"; };
 		5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
-		5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarenderViewController.storyboard; sourceTree = "<group>"; };
+		5BA92C8921724E5F0075A314 /* CalenderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalenderViewController.storyboard; sourceTree = "<group>"; };
 		5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
-		5BA92C8F21724EA80075A314 /* CarenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarenderViewController.swift; sourceTree = "<group>"; };
+		5BA92C8F21724EA80075A314 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,12 +150,16 @@
 				5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */,
 				5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */,
 				5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */,
-				5BA92C8F21724EA80075A314 /* CarenderViewController.swift */,
+				5BA92C8F21724EA80075A314 /* CalenderViewController.swift */,
+				5B73C089217D09370072AFFB /* CalenderViewModel.swift */,
 				5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */,
-				5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */,
+				5BA92C8921724E5F0075A314 /* CalenderViewController.storyboard */,
 				5BA92C60217221620075A314 /* Assets.xcassets */,
 				5BA92C62217221620075A314 /* LaunchScreen.storyboard */,
 				5BA92C65217221620075A314 /* Info.plist */,
+				5B73C085217D02B10072AFFB /* CalenderViewCell.swift */,
+				5B73C086217D02B10072AFFB /* CalenderViewCell.xib */,
+				5B73C08B217D1A120072AFFB /* Date+Extensions.swift */,
 			);
 			path = Sakunomi;
 			sourceTree = "<group>";
@@ -244,10 +256,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA92C8621724E0C0075A314 /* FavoriteViewController.storyboard in Resources */,
-				5BA92C8A21724E5F0075A314 /* CarenderViewController.storyboard in Resources */,
+				5BA92C8A21724E5F0075A314 /* CalenderViewController.storyboard in Resources */,
 				5BA92C8821724E2B0075A314 /* ProfileViewController.storyboard in Resources */,
 				5BA92C7C217240E10075A314 /* SignInViewController.storyboard in Resources */,
 				5BA92C64217221620075A314 /* LaunchScreen.storyboard in Resources */,
+				5B73C088217D02B10072AFFB /* CalenderViewCell.xib in Resources */,
 				5BA92C61217221620075A314 /* Assets.xcassets in Resources */,
 				5BA92C5F2172215B0075A314 /* HomeViewController.storyboard in Resources */,
 				5BA92C7E2172411D0075A314 /* SignUpViewController.storyboard in Resources */,
@@ -291,13 +304,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */,
+				5B73C08C217D1A120072AFFB /* Date+Extensions.swift in Sources */,
 				5BA92C5C2172215B0075A314 /* HomeViewController.swift in Sources */,
-				5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */,
+				5BA92C9021724EA80075A314 /* CalenderViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
 				5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
+				5B73C08A217D09370072AFFB /* CalenderViewModel.swift in Sources */,
 				5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */,
 				5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */,
+				5B73C087217D02B10072AFFB /* CalenderViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
