@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C592172215B0075A314 /* AppDelegate.swift */; };
-		5BA92C5C2172215B0075A314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C5B2172215B0075A314 /* ViewController.swift */; };
-		5BA92C5F2172215B0075A314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C5D2172215B0075A314 /* Main.storyboard */; };
 		5BA92C61217221620075A314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C60217221620075A314 /* Assets.xcassets */; };
 		5BA92C64217221620075A314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C62217221620075A314 /* LaunchScreen.storyboard */; };
 		5BA92C6F217221620075A314 /* SakunomiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C6E217221620075A314 /* SakunomiTests.swift */; };
+		5BA92C7C217240E10075A314 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C7B217240E10075A314 /* SignInViewController.storyboard */; };
+		5BA92C7E2172411D0075A314 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */; };
+		5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C7F2172413E0075A314 /* SignInViewController.swift */; };
+		5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C81217241500075A314 /* SignUpViewController.swift */; };
+		5BA92C94217251430075A314 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C93217251430075A314 /* HomeViewController.swift */; };
+		5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C95217251560075A314 /* HomeViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +32,18 @@
 /* Begin PBXFileReference section */
 		5BA92C562172215B0075A314 /* Sakunomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakunomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA92C592172215B0075A314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BA92C5B2172215B0075A314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BA92C5E2172215B0075A314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA92C60217221620075A314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA92C63217221620075A314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA92C65217221620075A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA92C6A217221620075A314 /* SakunomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakunomiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA92C6E217221620075A314 /* SakunomiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakunomiTests.swift; sourceTree = "<group>"; };
 		5BA92C70217221620075A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA92C7B217240E10075A314 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
+		5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
+		5BA92C7F2172413E0075A314 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5BA92C81217241500075A314 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5BA92C93217251430075A314 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5BA92C95217251560075A314 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +86,15 @@
 			isa = PBXGroup;
 			children = (
 				5BA92C592172215B0075A314 /* AppDelegate.swift */,
-				5BA92C5B2172215B0075A314 /* ViewController.swift */,
-				5BA92C5D2172215B0075A314 /* Main.storyboard */,
+				5BA92C7B217240E10075A314 /* SignInViewController.storyboard */,
+				5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */,
+				5BA92C7F2172413E0075A314 /* SignInViewController.swift */,
+				5BA92C81217241500075A314 /* SignUpViewController.swift */,
 				5BA92C60217221620075A314 /* Assets.xcassets */,
 				5BA92C62217221620075A314 /* LaunchScreen.storyboard */,
 				5BA92C65217221620075A314 /* Info.plist */,
+				5BA92C93217251430075A314 /* HomeViewController.swift */,
+				5BA92C95217251560075A314 /* HomeViewController.storyboard */,
 			);
 			path = Sakunomi;
 			sourceTree = "<group>";
@@ -177,9 +189,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */,
+				5BA92C7C217240E10075A314 /* SignInViewController.storyboard in Resources */,
 				5BA92C64217221620075A314 /* LaunchScreen.storyboard in Resources */,
 				5BA92C61217221620075A314 /* Assets.xcassets in Resources */,
-				5BA92C5F2172215B0075A314 /* Main.storyboard in Resources */,
+				5BA92C7E2172411D0075A314 /* SignUpViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BA92C5C2172215B0075A314 /* ViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
+				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
+				5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */,
+				5BA92C94217251430075A314 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +237,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5BA92C5D2172215B0075A314 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BA92C5E2172215B0075A314 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5BA92C62217221620075A314 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
