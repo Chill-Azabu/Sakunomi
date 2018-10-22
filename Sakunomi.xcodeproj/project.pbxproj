@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B73C07C217A34C20072AFFB /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C076217A34C20072AFFB /* RxTest.framework */; };
+		5B73C07D217A34C20072AFFB /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C077217A34C20072AFFB /* RxBlocking.framework */; };
+		5B73C07E217A34C20072AFFB /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C078217A34C20072AFFB /* Nuke.framework */; };
+		5B73C07F217A34C20072AFFB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C079217A34C20072AFFB /* RxCocoa.framework */; };
+		5B73C080217A34C20072AFFB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C07A217A34C20072AFFB /* Alamofire.framework */; };
+		5B73C081217A34C20072AFFB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C07B217A34C20072AFFB /* RxSwift.framework */; };
 		5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C592172215B0075A314 /* AppDelegate.swift */; };
 		5BA92C61217221620075A314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C60217221620075A314 /* Assets.xcassets */; };
 		5BA92C64217221620075A314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C62217221620075A314 /* LaunchScreen.storyboard */; };
@@ -15,6 +21,13 @@
 		5BA92C7E2172411D0075A314 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */; };
 		5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C7F2172413E0075A314 /* SignInViewController.swift */; };
 		5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C81217241500075A314 /* SignUpViewController.swift */; };
+		5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8321724BC70075A314 /* TabBarViewController.swift */; };
+		5BA92C8621724E0C0075A314 /* FavoriteViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */; };
+		5BA92C8821724E2B0075A314 /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */; };
+		5BA92C8A21724E5F0075A314 /* CarenderViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */; };
+		5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */; };
+		5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */; };
+		5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8F21724EA80075A314 /* CarenderViewController.swift */; };
 		5BA92C94217251430075A314 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C93217251430075A314 /* HomeViewController.swift */; };
 		5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C95217251560075A314 /* HomeViewController.storyboard */; };
 /* End PBXBuildFile section */
@@ -30,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B73C076217A34C20072AFFB /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		5B73C077217A34C20072AFFB /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		5B73C078217A34C20072AFFB /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
+		5B73C079217A34C20072AFFB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		5B73C07A217A34C20072AFFB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5B73C07B217A34C20072AFFB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		5BA92C562172215B0075A314 /* Sakunomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakunomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA92C592172215B0075A314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA92C60217221620075A314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +61,13 @@
 		5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
 		5BA92C7F2172413E0075A314 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		5BA92C81217241500075A314 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5BA92C8321724BC70075A314 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavoriteViewController.storyboard; sourceTree = "<group>"; };
+		5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarenderViewController.storyboard; sourceTree = "<group>"; };
+		5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		5BA92C8F21724EA80075A314 /* CarenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarenderViewController.swift; sourceTree = "<group>"; };
 		5BA92C93217251430075A314 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5BA92C95217251560075A314 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,6 +77,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B73C07C217A34C20072AFFB /* RxTest.framework in Frameworks */,
+				5B73C07D217A34C20072AFFB /* RxBlocking.framework in Frameworks */,
+				5B73C07E217A34C20072AFFB /* Nuke.framework in Frameworks */,
+				5B73C07F217A34C20072AFFB /* RxCocoa.framework in Frameworks */,
+				5B73C080217A34C20072AFFB /* Alamofire.framework in Frameworks */,
+				5B73C081217A34C20072AFFB /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,12 +96,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B73C075217A34C10072AFFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B73C07A217A34C20072AFFB /* Alamofire.framework */,
+				5B73C078217A34C20072AFFB /* Nuke.framework */,
+				5B73C077217A34C20072AFFB /* RxBlocking.framework */,
+				5B73C079217A34C20072AFFB /* RxCocoa.framework */,
+				5B73C07B217A34C20072AFFB /* RxSwift.framework */,
+				5B73C076217A34C20072AFFB /* RxTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5BA92C4D2172215A0075A314 = {
 			isa = PBXGroup;
 			children = (
 				5BA92C582172215B0075A314 /* Sakunomi */,
 				5BA92C6D217221620075A314 /* SakunomiTests */,
 				5BA92C572172215B0075A314 /* Products */,
+				5B73C075217A34C10072AFFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +136,13 @@
 				5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */,
 				5BA92C7F2172413E0075A314 /* SignInViewController.swift */,
 				5BA92C81217241500075A314 /* SignUpViewController.swift */,
+				5BA92C8321724BC70075A314 /* TabBarViewController.swift */,
+				5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */,
+				5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */,
+				5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */,
+				5BA92C8F21724EA80075A314 /* CarenderViewController.swift */,
+				5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */,
+				5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */,
 				5BA92C60217221620075A314 /* Assets.xcassets */,
 				5BA92C62217221620075A314 /* LaunchScreen.storyboard */,
 				5BA92C65217221620075A314 /* Info.plist */,
@@ -118,6 +171,7 @@
 				5BA92C522172215A0075A314 /* Sources */,
 				5BA92C532172215A0075A314 /* Frameworks */,
 				5BA92C542172215A0075A314 /* Resources */,
+				5B73C082217A34D70072AFFB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -189,6 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA92C8621724E0C0075A314 /* FavoriteViewController.storyboard in Resources */,
+				5BA92C8A21724E5F0075A314 /* CarenderViewController.storyboard in Resources */,
+				5BA92C8821724E2B0075A314 /* ProfileViewController.storyboard in Resources */,
 				5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */,
 				5BA92C7C217240E10075A314 /* SignInViewController.storyboard in Resources */,
 				5BA92C64217221620075A314 /* LaunchScreen.storyboard in Resources */,
@@ -206,13 +263,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B73C082217A34D70072AFFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nuke.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BA92C522172215A0075A314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */,
+				5BA92C5C2172215B0075A314 /* HomeViewController.swift in Sources */,
+				5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
+				5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
+				5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */,
 				5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */,
 				5BA92C94217251430075A314 /* HomeViewController.swift in Sources */,
 			);
@@ -368,6 +452,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sakunomi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,6 +474,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PGP7B8YQAS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Sakunomi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
