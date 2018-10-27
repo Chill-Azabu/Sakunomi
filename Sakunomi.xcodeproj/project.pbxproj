@@ -30,6 +30,9 @@
 		5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8F21724EA80075A314 /* CarenderViewController.swift */; };
 		5BA92C94217251430075A314 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C93217251430075A314 /* HomeViewController.swift */; };
 		5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C95217251560075A314 /* HomeViewController.storyboard */; };
+		5BE57F632184C15700AC8754 /* WalkThrough.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE57F622184C15700AC8754 /* WalkThrough.storyboard */; };
+		5BE57F652184C1AD00AC8754 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE57F642184C1AD00AC8754 /* WalkThroughViewController.swift */; };
+		5BE57F672184F2B800AC8754 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE57F662184F2B800AC8754 /* TextField.swift */; };
 		C7E939B1EDFC7B4278A5A58A /* Pods_Sakunomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		5BA92C8F21724EA80075A314 /* CarenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarenderViewController.swift; sourceTree = "<group>"; };
 		5BA92C93217251430075A314 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5BA92C95217251560075A314 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		5BE57F622184C15700AC8754 /* WalkThrough.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WalkThrough.storyboard; sourceTree = "<group>"; };
+		5BE57F642184C1AD00AC8754 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
+		5BE57F662184F2B800AC8754 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 		74B78BF08DEF8E6C98A24F07 /* Pods_SakunomiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakunomiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C6D60E287DF2787DCB8214 /* Pods-Sakunomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakunomi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi.debug.xcconfig"; sourceTree = "<group>"; };
 		B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakunomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				5B73C095218468AE0072AFFB /* TextButton.swift */,
+				5BE57F662184F2B800AC8754 /* TextField.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -396,6 +403,7 @@
 				5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */,
 				5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
+				5BE57F672184F2B800AC8754 /* TextField.swift in Sources */,
 				5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
 				5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */,
