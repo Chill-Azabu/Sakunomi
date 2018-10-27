@@ -132,27 +132,99 @@
 		5BA92C582172215B0075A314 /* Sakunomi */ = {
 			isa = PBXGroup;
 			children = (
-				5B73C098218470230072AFFB /* R.generated.swift */,
+				5BE57F572184B5CD00AC8754 /* ViewComponents */,
+				5BE57F5A2184BA1A00AC8754 /* Data */,
+				5BE57F582184B60200AC8754 /* UI */,
 				5BA92C592172215B0075A314 /* AppDelegate.swift */,
-				5BA92C7B217240E10075A314 /* SignInViewController.storyboard */,
-				5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */,
-				5BA92C7F2172413E0075A314 /* SignInViewController.swift */,
-				5BA92C81217241500075A314 /* SignUpViewController.swift */,
-				5BA92C8321724BC70075A314 /* TabBarViewController.swift */,
-				5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */,
-				5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */,
-				5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */,
-				5BA92C8F21724EA80075A314 /* CarenderViewController.swift */,
-				5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */,
-				5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */,
+				5B73C098218470230072AFFB /* R.generated.swift */,
+				5BA92C65217221620075A314 /* Info.plist */,
 				5BA92C60217221620075A314 /* Assets.xcassets */,
 				5BA92C62217221620075A314 /* LaunchScreen.storyboard */,
-				5BA92C65217221620075A314 /* Info.plist */,
-				5BA92C93217251430075A314 /* HomeViewController.swift */,
-				5BA92C95217251560075A314 /* HomeViewController.storyboard */,
-				5B73C095218468AE0072AFFB /* TextButton.swift */,
 			);
 			path = Sakunomi;
+			sourceTree = "<group>";
+		};
+		5BE57F572184B5CD00AC8754 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5B73C095218468AE0072AFFB /* TextButton.swift */,
+			);
+			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		5BE57F582184B60200AC8754 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92C8321724BC70075A314 /* TabBarViewController.swift */,
+				5BE57F602184BBF500AC8754 /* Home */,
+				5BA92C93217251430075A314 /* HomeViewController.swift */,
+				5BA92C95217251560075A314 /* HomeViewController.storyboard */,
+				5BE57F5F2184BA6F00AC8754 /* Carender */,
+				5BE57F5E2184BA5F00AC8754 /* Profile */,
+				5BE57F5D2184BA5600AC8754 /* Favorite */,
+				5BE57F5C2184BA4D00AC8754 /* SignIn */,
+				5BE57F5B2184BA3000AC8754 /* SignUp */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5BE57F5A2184BA1A00AC8754 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5BE57F5B2184BA3000AC8754 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */,
+				5BA92C81217241500075A314 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		5BE57F5C2184BA4D00AC8754 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92C7B217240E10075A314 /* SignInViewController.storyboard */,
+				5BA92C7F2172413E0075A314 /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5BE57F5D2184BA5600AC8754 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92C8521724E0C0075A314 /* FavoriteViewController.storyboard */,
+				5BA92C8D21724E9D0075A314 /* FavoriteViewController.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		5BE57F5E2184BA5F00AC8754 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92C8B21724E8C0075A314 /* ProfileViewController.swift */,
+				5BA92C8721724E2B0075A314 /* ProfileViewController.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		5BE57F5F2184BA6F00AC8754 /* Carender */ = {
+			isa = PBXGroup;
+			children = (
+				5BA92C8F21724EA80075A314 /* CarenderViewController.swift */,
+				5BA92C8921724E5F0075A314 /* CarenderViewController.storyboard */,
+			);
+			path = Carender;
+			sourceTree = "<group>";
+		};
+		5BE57F602184BBF500AC8754 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
