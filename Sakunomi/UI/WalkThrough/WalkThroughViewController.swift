@@ -8,7 +8,7 @@ class WalkThroughViewController: UIViewController {
     @IBOutlet weak var outerScrollView: UIScrollView!
     @IBOutlet weak var innerScrollView: UIScrollView!
     
-    @IBOutlet weak var pageControll: UIPageControl!
+    @IBOutlet weak var pageControl: UIPageControl!
     
     @IBOutlet weak var deepScrollView: UIScrollView!
     @IBOutlet weak var nextButton: UIButton!
@@ -36,15 +36,16 @@ class WalkThroughViewController: UIViewController {
         
         outerScrollView.rx.currentPage
             .subscribe(onNext: { [weak self] in
-                self?.pageControll.currentPage = $0
-            }).disposed(by: disposeBag)
+                self?.pageControl.currentPage = $0
+            })
+            .disposed(by: disposeBag)
         
-        pageControll.rx.controlEvent(.valueChanged)
+        pageControl.rx.controlEvent(.valueChanged)
             .subscribe(onNext: { [weak self] in
-                guard let currentPage = self?.pageControll.currentPage else { return }
+                guard let currentPage = self?.pageControl.currentPage else { return }
                 self?.outerScrollView.setCurrentPage(currentPage, animated: true)
             }).disposed(by: disposeBag)
-        
+
         nextButton.rx.tap
             .subscribe(onNext: { [weak self] in
                 self?.navigationController?.popViewController(animated: true)
