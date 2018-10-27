@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5B73C07C217A34C20072AFFB /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C076217A34C20072AFFB /* RxTest.framework */; };
 		5B73C07D217A34C20072AFFB /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C077217A34C20072AFFB /* RxBlocking.framework */; };
 		5B73C07E217A34C20072AFFB /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C078217A34C20072AFFB /* Nuke.framework */; };
 		5B73C07F217A34C20072AFFB /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C079217A34C20072AFFB /* RxCocoa.framework */; };
 		5B73C080217A34C20072AFFB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C07A217A34C20072AFFB /* Alamofire.framework */; };
 		5B73C081217A34C20072AFFB /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B73C07B217A34C20072AFFB /* RxSwift.framework */; };
+		5B73C096218468AE0072AFFB /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73C095218468AE0072AFFB /* TextButton.swift */; };
+		5B73C099218470230072AFFB /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B73C098218470230072AFFB /* R.generated.swift */; };
 		5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C592172215B0075A314 /* AppDelegate.swift */; };
 		5BA92C61217221620075A314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C60217221620075A314 /* Assets.xcassets */; };
 		5BA92C64217221620075A314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C62217221620075A314 /* LaunchScreen.storyboard */; };
-		5BA92C6F217221620075A314 /* SakunomiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C6E217221620075A314 /* SakunomiTests.swift */; };
 		5BA92C7C217240E10075A314 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C7B217240E10075A314 /* SignInViewController.storyboard */; };
 		5BA92C7E2172411D0075A314 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */; };
 		5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C7F2172413E0075A314 /* SignInViewController.swift */; };
@@ -30,33 +30,24 @@
 		5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8F21724EA80075A314 /* CarenderViewController.swift */; };
 		5BA92C94217251430075A314 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C93217251430075A314 /* HomeViewController.swift */; };
 		5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C95217251560075A314 /* HomeViewController.storyboard */; };
+		C7E939B1EDFC7B4278A5A58A /* Pods_Sakunomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5BA92C6B217221620075A314 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BA92C4E2172215A0075A314 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5BA92C552172215A0075A314;
-			remoteInfo = Sakunomi;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		24F7532779825047B32CB066 /* Pods-SakunomiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakunomiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakunomiTests/Pods-SakunomiTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B73C076217A34C20072AFFB /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		5B73C077217A34C20072AFFB /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		5B73C078217A34C20072AFFB /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
 		5B73C079217A34C20072AFFB /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		5B73C07A217A34C20072AFFB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		5B73C07B217A34C20072AFFB /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		5B73C095218468AE0072AFFB /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		5B73C098218470230072AFFB /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		5BA92C562172215B0075A314 /* Sakunomi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakunomi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA92C592172215B0075A314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA92C60217221620075A314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA92C63217221620075A314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA92C65217221620075A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA92C6A217221620075A314 /* SakunomiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakunomiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5BA92C6E217221620075A314 /* SakunomiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakunomiTests.swift; sourceTree = "<group>"; };
-		5BA92C70217221620075A314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BA92C7B217240E10075A314 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
 		5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
 		5BA92C7F2172413E0075A314 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +61,11 @@
 		5BA92C8F21724EA80075A314 /* CarenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarenderViewController.swift; sourceTree = "<group>"; };
 		5BA92C93217251430075A314 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5BA92C95217251560075A314 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		74B78BF08DEF8E6C98A24F07 /* Pods_SakunomiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakunomiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91C6D60E287DF2787DCB8214 /* Pods-Sakunomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakunomi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi.debug.xcconfig"; sourceTree = "<group>"; };
+		B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakunomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31A316FD4423BA2973AB33A /* Pods-Sakunomi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakunomi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi.release.xcconfig"; sourceTree = "<group>"; };
+		E2E381C3D694CF9D8256892A /* Pods-SakunomiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakunomiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakunomiTests/Pods-SakunomiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,25 +73,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B73C07C217A34C20072AFFB /* RxTest.framework in Frameworks */,
 				5B73C07D217A34C20072AFFB /* RxBlocking.framework in Frameworks */,
 				5B73C07E217A34C20072AFFB /* Nuke.framework in Frameworks */,
 				5B73C07F217A34C20072AFFB /* RxCocoa.framework in Frameworks */,
 				5B73C080217A34C20072AFFB /* Alamofire.framework in Frameworks */,
 				5B73C081217A34C20072AFFB /* RxSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BA92C67217221620075A314 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C7E939B1EDFC7B4278A5A58A /* Pods_Sakunomi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54E47DB0DE85FA40ABC0914F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91C6D60E287DF2787DCB8214 /* Pods-Sakunomi.debug.xcconfig */,
+				D31A316FD4423BA2973AB33A /* Pods-Sakunomi.release.xcconfig */,
+				E2E381C3D694CF9D8256892A /* Pods-SakunomiTests.debug.xcconfig */,
+				24F7532779825047B32CB066 /* Pods-SakunomiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B73C075217A34C10072AFFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +105,8 @@
 				5B73C079217A34C20072AFFB /* RxCocoa.framework */,
 				5B73C07B217A34C20072AFFB /* RxSwift.framework */,
 				5B73C076217A34C20072AFFB /* RxTest.framework */,
+				B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */,
+				74B78BF08DEF8E6C98A24F07 /* Pods_SakunomiTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,9 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				5BA92C582172215B0075A314 /* Sakunomi */,
-				5BA92C6D217221620075A314 /* SakunomiTests */,
 				5BA92C572172215B0075A314 /* Products */,
 				5B73C075217A34C10072AFFB /* Frameworks */,
+				54E47DB0DE85FA40ABC0914F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				5BA92C562172215B0075A314 /* Sakunomi.app */,
-				5BA92C6A217221620075A314 /* SakunomiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +132,7 @@
 		5BA92C582172215B0075A314 /* Sakunomi */ = {
 			isa = PBXGroup;
 			children = (
+				5B73C098218470230072AFFB /* R.generated.swift */,
 				5BA92C592172215B0075A314 /* AppDelegate.swift */,
 				5BA92C7B217240E10075A314 /* SignInViewController.storyboard */,
 				5BA92C7D2172411D0075A314 /* SignUpViewController.storyboard */,
@@ -148,17 +150,9 @@
 				5BA92C65217221620075A314 /* Info.plist */,
 				5BA92C93217251430075A314 /* HomeViewController.swift */,
 				5BA92C95217251560075A314 /* HomeViewController.storyboard */,
+				5B73C095218468AE0072AFFB /* TextButton.swift */,
 			);
 			path = Sakunomi;
-			sourceTree = "<group>";
-		};
-		5BA92C6D217221620075A314 /* SakunomiTests */ = {
-			isa = PBXGroup;
-			children = (
-				5BA92C6E217221620075A314 /* SakunomiTests.swift */,
-				5BA92C70217221620075A314 /* Info.plist */,
-			);
-			path = SakunomiTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,10 +162,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA92C73217221620075A314 /* Build configuration list for PBXNativeTarget "Sakunomi" */;
 			buildPhases = (
+				03B47FD8690FAE4B74FF64CA /* [CP] Check Pods Manifest.lock */,
+				5B73C09721846F440072AFFB /* ShellScript */,
 				5BA92C522172215A0075A314 /* Sources */,
 				5BA92C532172215A0075A314 /* Frameworks */,
 				5BA92C542172215A0075A314 /* Resources */,
 				5B73C082217A34D70072AFFB /* ShellScript */,
+				A49367921CC68474B4AA7A3A /* [CP] Embed Pods Frameworks */,
+				A298A984B532AF4A9675EF4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,24 +179,6 @@
 			productName = Sakunomi;
 			productReference = 5BA92C562172215B0075A314 /* Sakunomi.app */;
 			productType = "com.apple.product-type.application";
-		};
-		5BA92C69217221620075A314 /* SakunomiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5BA92C76217221620075A314 /* Build configuration list for PBXNativeTarget "SakunomiTests" */;
-			buildPhases = (
-				5BA92C66217221620075A314 /* Sources */,
-				5BA92C67217221620075A314 /* Frameworks */,
-				5BA92C68217221620075A314 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5BA92C6C217221620075A314 /* PBXTargetDependency */,
-			);
-			name = SakunomiTests;
-			productName = SakunomiTests;
-			productReference = 5BA92C6A217221620075A314 /* SakunomiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,10 +192,6 @@
 				TargetAttributes = {
 					5BA92C552172215A0075A314 = {
 						CreatedOnToolsVersion = 9.4.1;
-					};
-					5BA92C69217221620075A314 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 5BA92C552172215A0075A314;
 					};
 				};
 			};
@@ -233,7 +209,6 @@
 			projectRoot = "";
 			targets = (
 				5BA92C552172215A0075A314 /* Sakunomi */,
-				5BA92C69217221620075A314 /* SakunomiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -254,16 +229,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BA92C68217221620075A314 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03B47FD8690FAE4B74FF64CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakunomi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5B73C082217A34D70072AFFB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -275,13 +261,58 @@
 				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		5B73C09721846F440072AFFB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"\n";
+		};
+		A298A984B532AF4A9675EF4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A49367921CC68474B4AA7A3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -291,34 +322,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */,
-				5BA92C5C2172215B0075A314 /* HomeViewController.swift in Sources */,
 				5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
 				5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
 				5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */,
+				5B73C096218468AE0072AFFB /* TextButton.swift in Sources */,
+				5B73C099218470230072AFFB /* R.generated.swift in Sources */,
 				5BA92C802172413E0075A314 /* SignInViewController.swift in Sources */,
 				5BA92C94217251430075A314 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5BA92C66217221620075A314 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5BA92C6F217221620075A314 /* SakunomiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5BA92C6C217221620075A314 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5BA92C552172215A0075A314 /* Sakunomi */;
-			targetProxy = 5BA92C6B217221620075A314 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BA92C62217221620075A314 /* LaunchScreen.storyboard */ = {
@@ -448,6 +464,7 @@
 		};
 		5BA92C74217221620075A314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C6D60E287DF2787DCB8214 /* Pods-Sakunomi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +487,7 @@
 		};
 		5BA92C75217221620075A314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D31A316FD4423BA2973AB33A /* Pods-Sakunomi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -490,48 +508,6 @@
 			};
 			name = Release;
 		};
-		5BA92C77217221620075A314 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PGP7B8YQAS;
-				INFOPLIST_FILE = SakunomiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.SakunomiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sakunomi.app/Sakunomi";
-			};
-			name = Debug;
-		};
-		5BA92C78217221620075A314 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PGP7B8YQAS;
-				INFOPLIST_FILE = SakunomiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IichiroKawashima.SakunomiTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sakunomi.app/Sakunomi";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -549,15 +525,6 @@
 			buildConfigurations = (
 				5BA92C74217221620075A314 /* Debug */,
 				5BA92C75217221620075A314 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5BA92C76217221620075A314 /* Build configuration list for PBXNativeTarget "SakunomiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5BA92C77217221620075A314 /* Debug */,
-				5BA92C78217221620075A314 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yfw-g0-1ZZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yfw-g0-1ZZ">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,7 +28,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rac-kj-v0E" userLabel="password">
-                                <rect key="frame" x="16" y="64.5" width="343" height="17"/>
+                                <rect key="frame" x="16" y="65" width="343" height="17"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="alphabet" returnKeyType="next" secureTextEntry="YES" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no" textContentType="password"/>
@@ -36,25 +36,14 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="assistiveText" value="半角英数字・記号のみで8~50文字・複雑な文字列"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZP-we-Gf4" userLabel="createAccount" customClass="ContainedButton">
-                                <rect key="frame" x="57" y="130" width="260" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KZP-we-Gf4" userLabel="createAccount" customClass="TextButton" customModule="Sakunomi" customModuleProvider="target">
+                                <rect key="frame" x="57.5" y="130" width="260" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="PDg-8R-hrT"/>
                                     <constraint firstAttribute="height" constant="50" id="R7A-lL-jEt"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="containerColor">
-                                        <color key="value" red="0.94901961089999998" green="0.38039216399999998" blue="0.38039216399999998" alpha="1" colorSpace="deviceRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="highlightedContainerColor">
-                                        <color key="value" red="0.94901961089999998" green="0.38039216399999998" blue="0.38039216399999998" alpha="0.90000000000000002" colorSpace="deviceRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="disabledContainerColor">
-                                        <color key="value" red="0.85490196939999996" green="0.85882353779999998" blue="0.89019608500000003" alpha="1" colorSpace="deviceRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Zc-ot-seG" userLabel="personalInformation" customClass="TextButton" customModule="Folio_UI_Collection" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Zc-ot-seG" userLabel="personalInformation" customClass="TextButton" customModule="Sakunomi" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="212" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="o04-9G-LLC"/>
@@ -82,6 +71,12 @@
                         <viewLayoutGuide key="safeArea" id="bfM-Z6-A7r"/>
                     </view>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="createAccountButton" destination="KZP-we-Gf4" id="KWl-lx-mhY"/>
+                        <outlet property="emailLabel" destination="4Hd-sm-92f" id="ggn-od-88w"/>
+                        <outlet property="passwordLabel" destination="rac-kj-v0E" id="Lvv-oM-Bcw"/>
+                        <outlet property="personalinformation" destination="9Zc-ot-seG" id="aRi-tG-g9J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7pb-hv-fTj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
