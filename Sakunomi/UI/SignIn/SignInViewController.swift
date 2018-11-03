@@ -8,3 +8,12 @@ class SignInViewController: UIViewController {
 
     }
 }
+
+extension SignInViewController {
+    
+    class func makeInstance() -> SignInViewController {
+        let storyboard = UIStoryboard(name: "SignInViewController", bundle: nil)
+        let viewController = storyboard.instantiateInitialViewController() as! SignInViewController
+        return viewController
+    }
+}

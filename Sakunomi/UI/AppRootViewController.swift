@@ -1,30 +1,56 @@
-//
-//  AppRootViewController.swift
-//  Sakunomi
-//
-//  Created by Iichiro Kawashima on 2018/11/04.
-//  Copyright © 2018 Iichiro Kawashima. All rights reserved.
-//
 
 import UIKit
 
 class AppRootViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    private var current: UIViewController
+    
+    init() {
+        let launchVC = LaunchViewController.makeInstance()
+        self.current = launchVC
+        super.init(nibName: nil, bundle: nil)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
-    */
-
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        addChildViewController(current)
+        current.view.frame = UIScreen.main.bounds
+        view.addSubview(current.view)
+        current.didMove(toParentViewController: self)
+    }
+    
+    func showLoginScreen() {
+        let loginVC = SignInViewController.makeInstance()
+        let new = UINavigationController(rootViewController: loginVC)
+        addChildViewController(new)
+        new.view.frame = view.bounds
+        view.addSubview(new.view)
+        new.didMove(toParentViewController: self)
+        
+        current.willMove(toParentViewController: nil)
+        current.view.removeFromSuperview()
+        current.removeFromParentViewController()
+        
+        current = new
+    }
+    
+    func showHomeScreen() {
+        let homeVC = HomeViewController.makeInstance()
+        let new = UINavigationController(rootViewController: homeVC)
+        addChildViewController(new)
+        new.view.frame = view.bounds
+        view.addSubview(new.view)
+        new.didMove(toParentViewController: self)
+        
+        current.willMove(toParentViewController: nil)
+        current.view.removeFromSuperview()
+        current.removeFromParentViewController()
+        
+        current = new
+    }
 }
