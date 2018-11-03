@@ -7,11 +7,9 @@ target 'Sakunomi' do
   use_frameworks!
 
   pod 'R.swift'
+  pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
   # Pods for Sakunomi
-
-  target 'SakunomiTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
