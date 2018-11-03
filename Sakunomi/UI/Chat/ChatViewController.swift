@@ -56,15 +56,23 @@ class ChatViewController: MessagesViewController {
     
     var messages: [Message] = []
     var member: Member!
+    var chatService: ChatService!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         member = Member(name: "bluemoon", color: .blue)
         messagesCollectionView.messagesDataSource = self
         messagesCollectionView.messagesLayoutDelegate = self
         messageInputBar.delegate = self
         messagesCollectionView.messagesDisplayDelegate = self
+        
+        chatService = ChatService(member: member, onRecievedMessage: { [weak self] message in
+            self?.messages.append(message)
+            self?.messagesCollectionView.reloadData()
+            self?.messagesCollectionView.scrollToBottom(animated: true)
+        })
+        chatService.connect()
     }
 }
 
@@ -115,9 +123,7 @@ extension ChatViewController: MessageInputBarDelegate {
     func messageInputBar(_ inputBar: MessageInputBar, didPressSendButtonWith text: String) {
         let newMessage = Message(member: member, text: text, messageId: UUID().uuidString)
         
-        messages.append(newMessage)
+        chatService.sendMessage(text)
         inputBar.inputTextView.text = ""
-        messagesCollectionView.reloadData()
-        messagesCollectionView.scrollToBottom(animated: true)
     }
 }
