@@ -35,6 +35,7 @@
 		5BE41C05218E0755000D0B09 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE41C04218E0755000D0B09 /* ChatService.swift */; };
 		5BE41C08218E09C7000D0B09 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE41C07218E09C7000D0B09 /* String+Extensions.swift */; };
 		5BE41C0A218E09FA000D0B09 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE41C09218E09FA000D0B09 /* UIColor+Extensions.swift */; };
+		5BE41C10218E3391000D0B09 /* AppConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE41C0F218E3391000D0B09 /* AppConst.swift */; };
 		C7E939B1EDFC7B4278A5A58A /* Pods_Sakunomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		5BE41C04218E0755000D0B09 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
 		5BE41C07218E09C7000D0B09 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		5BE41C09218E09FA000D0B09 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		5BE41C0F218E3391000D0B09 /* AppConst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConst.swift; sourceTree = "<group>"; };
 		74B78BF08DEF8E6C98A24F07 /* Pods_SakunomiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakunomiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C6D60E287DF2787DCB8214 /* Pods-Sakunomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakunomi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi.debug.xcconfig"; sourceTree = "<group>"; };
 		B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakunomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +153,7 @@
 				5BA92C65217221620075A314 /* Info.plist */,
 				5BA92C60217221620075A314 /* Assets.xcassets */,
 				5BA92C62217221620075A314 /* LaunchScreen.storyboard */,
+				5BE41C0F218E3391000D0B09 /* AppConst.swift */,
 			);
 			path = Sakunomi;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				5BE41C05218E0755000D0B09 /* ChatService.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
 				5BA92C8421724BC70075A314 /* TabBarViewController.swift in Sources */,
+				5BE41C10218E3391000D0B09 /* AppConst.swift in Sources */,
 				5B73C096218468AE0072AFFB /* TextButton.swift in Sources */,
 				5B73C099218470230072AFFB /* R.generated.swift in Sources */,
 				5BE41C0A218E09FA000D0B09 /* UIColor+Extensions.swift in Sources */,
