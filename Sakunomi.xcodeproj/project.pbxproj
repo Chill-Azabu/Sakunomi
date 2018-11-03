@@ -30,6 +30,8 @@
 		5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C8F21724EA80075A314 /* CarenderViewController.swift */; };
 		5BA92C94217251430075A314 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA92C93217251430075A314 /* HomeViewController.swift */; };
 		5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA92C95217251560075A314 /* HomeViewController.storyboard */; };
+		5BE41C01218DF0F1000D0B09 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE41C00218DF0F1000D0B09 /* ChatViewController.swift */; };
+		5BE41C03218DF138000D0B09 /* ChatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE41C02218DF138000D0B09 /* ChatViewController.storyboard */; };
 		C7E939B1EDFC7B4278A5A58A /* Pods_Sakunomi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,8 @@
 		5BA92C8F21724EA80075A314 /* CarenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarenderViewController.swift; sourceTree = "<group>"; };
 		5BA92C93217251430075A314 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5BA92C95217251560075A314 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		5BE41C00218DF0F1000D0B09 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		5BE41C02218DF138000D0B09 /* ChatViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ChatViewController.storyboard; sourceTree = "<group>"; };
 		74B78BF08DEF8E6C98A24F07 /* Pods_SakunomiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakunomiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C6D60E287DF2787DCB8214 /* Pods-Sakunomi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakunomi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sakunomi/Pods-Sakunomi.debug.xcconfig"; sourceTree = "<group>"; };
 		B8148FCA74E15F4305A294F6 /* Pods_Sakunomi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakunomi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +148,15 @@
 			path = Sakunomi;
 			sourceTree = "<group>";
 		};
+		5BE41BFF218DF091000D0B09 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5BE41C00218DF0F1000D0B09 /* ChatViewController.swift */,
+				5BE41C02218DF138000D0B09 /* ChatViewController.storyboard */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 		5BE57F572184B5CD00AC8754 /* ViewComponents */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +172,7 @@
 				5BE57F602184BBF500AC8754 /* Home */,
 				5BA92C93217251430075A314 /* HomeViewController.swift */,
 				5BA92C95217251560075A314 /* HomeViewController.storyboard */,
+				5BE41BFF218DF091000D0B09 /* Chat */,
 				5BE57F5F2184BA6F00AC8754 /* Carender */,
 				5BE57F5E2184BA5F00AC8754 /* Profile */,
 				5BE57F5D2184BA5600AC8754 /* Favorite */,
@@ -291,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA92C8621724E0C0075A314 /* FavoriteViewController.storyboard in Resources */,
+				5BE41C03218DF138000D0B09 /* ChatViewController.storyboard in Resources */,
 				5BA92C8A21724E5F0075A314 /* CarenderViewController.storyboard in Resources */,
 				5BA92C8821724E2B0075A314 /* ProfileViewController.storyboard in Resources */,
 				5BA92C96217251560075A314 /* HomeViewController.storyboard in Resources */,
@@ -395,6 +410,7 @@
 			files = (
 				5BA92C8C21724E8C0075A314 /* ProfileViewController.swift in Sources */,
 				5BA92C9021724EA80075A314 /* CarenderViewController.swift in Sources */,
+				5BE41C01218DF0F1000D0B09 /* ChatViewController.swift in Sources */,
 				5BA92C5A2172215B0075A314 /* AppDelegate.swift in Sources */,
 				5BA92C8E21724E9D0075A314 /* FavoriteViewController.swift in Sources */,
 				5BA92C82217241500075A314 /* SignUpViewController.swift in Sources */,
