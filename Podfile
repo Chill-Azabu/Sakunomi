@@ -7,11 +7,8 @@ target 'Sakunomi' do
   use_frameworks!
 
   pod 'R.swift'
+  pod 'MessageKit'
+  pod 'Scaledrone', '~> 0.3.0'
   # Pods for Sakunomi
-
-  target 'SakunomiTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
 
 end
